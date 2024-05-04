@@ -43,7 +43,7 @@ opt.splitbelow = true
 --  See `:help 'list'`
 --  and `:help 'listchars'`
 opt.list = true
-opt.listchars = { trail = '·', nbsp = '␣' }
+opt.listchars = { tab = '  ', trail = '·', nbsp = '␣' }
 
 -- Preview substitutions live, as you type!
 opt.inccommand = 'split'
